@@ -1,0 +1,22 @@
+{
+  "name": "semver-tests",
+  "version": "0.0.0",
+  "description": "Semantic versioning build tests",
+  "main": "index.js",
+  "repository": "git@github.com:techninja/semver-tests.git",
+  "author": "techninja <james@tn42.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "3.2.0"
+  },
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
